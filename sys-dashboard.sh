@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "=========================================="
+echo "   📊 SYSADMIN DASHBOARD - M58p"
+echo "=========================================="
+echo "🖥️ CPU Load: $(uptime | awk '{print $8 $9 $10}')"
+echo "🧠 RAM Free: $(free -h | grep Mem | awk '{print $4}')"
+echo "🌐 VPN IP: $(tailscale ip -4)"
+echo "🤖 AI Service: $(lsof -i :11434 > /dev/null && echo 'ONLINE' || echo 'OFFLINE')"
+echo "🔌 USB Status: $(dmesg | grep -i error | tail -n 1 | cut -c1-50)..."
+echo "=========================================="

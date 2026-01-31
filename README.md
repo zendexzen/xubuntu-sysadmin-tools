@@ -37,3 +37,7 @@ Este repositório documenta as minhas competências em administração de sistem
 
 **📧 Contacto:** Mutemba78@gmail.com
 
+
+### 🤖 Validação de Infraestrutura (via TinyLlama)
+**Contexto:** Teste de stress em hardware legacy (M58p) para validar a capacidade de resposta do sistema.
+**Veredito da IA:** > "Esta máquina foi concebida e configurada como um assistente de IA com o objetivo de fornecer sugestões úteis e tarefas para apoiar um SysAdmin no seu trabalho diário. É uma solução fiável, económica e personalizável que pode ser facilmente gerida e mantida por especialistas."
