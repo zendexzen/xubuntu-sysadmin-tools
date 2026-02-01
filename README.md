@@ -41,3 +41,6 @@ Este repositório documenta as minhas competências em administração de sistem
 ### 🤖 Validação de Infraestrutura (via TinyLlama)
 **Contexto:** Teste de stress em hardware legacy (M58p) para validar a capacidade de resposta do sistema.
 **Veredito da IA:** > "Esta máquina foi concebida e configurada como um assistente de IA com o objetivo de fornecer sugestões úteis e tarefas para apoiar um SysAdmin no seu trabalho diário. É uma solução fiável, económica e personalizável que pode ser facilmente gerida e mantida por especialistas."
+
+## 🔍 Network Surveillance
+O sistema possui rotinas de varredura automatizada (Crontab + Nmap) para monitorização de ativos na rede local, com reporte direto via Mail interno (Postfix), garantindo visibilidade total sobre novos dispositivos ou serviços expostos.
